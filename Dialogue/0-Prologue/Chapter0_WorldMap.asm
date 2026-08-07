@@ -177,7 +177,7 @@ dialoguePrologueWM1
 	.byte $40
 	.byte $20
 
-.text	" Lord Reptor"
+.text	" Duke Reptor"
 	.byte NewLine
 .text	"of House Friege,"
 	.word ClearMapSymbol
@@ -198,7 +198,7 @@ dialoguePrologueWM1
 
 .text	"Prompted by such thoughts,"
 	.byte NewLine
-.text	"he has enticed Lord Lombard"
+.text	"he has enticed Duke Lombard"
 	
 	.word LoadPortraitWM1
 	.byte 4
@@ -253,7 +253,7 @@ dialoguePrologueWM1
 	.byte $B8
 	.byte $04
 
-.text	" Lord Arvis, has instead seen to the"
+.text	" Duke Arvis, has instead seen to the"
 	.byte NewLine
 .text	"care of King Ásmundr, "
 	.word ClearMapSymbol
@@ -397,7 +397,7 @@ dialoguePrologueWM3
 	.byte WaitForA
 	.byte ScrollText
 	
-.text	"As always, Lord Byron"
+.text	"As always, Duke Byron"
 	
 	.word LoadPortraitWM1
 	.byte 4
@@ -529,7 +529,7 @@ dialoguePrologueWM6
 	.byte ScrollText
 .text	"In the wake of it all, Yngvi’s defense lies solely"
 	.byte NewLine
-.text	"in the hands of the absent Lord Ling’s daughter,"
+.text	"in the hands of the absent Duke Ling’s daughter,"
 	.byte WaitForA
 	
 	.word LoadPortraitWM1
@@ -564,7 +564,7 @@ dialoguePrologueWM6
 	.byte NewLine
 .text	"having been entrusted with Grannvale's defense"
 	.byte NewLine
-.text	"by his father, Lord Byron."
+.text	"by his father, Duke Byron."
 	.byte WaitForA
 	
 	.byte ScrollText
