@@ -27,7 +27,7 @@
 * = $9BAC1
 .logical $9BAC1
 
-.word $6E01, $6F01, $0000								; Hit
+.word $6E01, $6F01, $0000, $0000								; Hit
 .word $6A01, $6B01, $6C01, $6D01, $0000					; Might
 .word $4A01, $4B01, $4C01, $4D01, $0000					; Range
 .word $2A01, $2B01, $2C01, $2D01, $0000, $0000, $0000	; Weight
