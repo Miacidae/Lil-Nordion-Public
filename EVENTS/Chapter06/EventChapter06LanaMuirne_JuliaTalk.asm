@@ -21,4 +21,7 @@
     RUN_EVENT_CONDITION
           MODIFY_LOVE_POINTS Lana, Julia, 100
 
+    RUN_EVENT_CONDITION
+            GIVE_UNIT_PID Julia, PI_MendStaff2
+
     END_EVENT
