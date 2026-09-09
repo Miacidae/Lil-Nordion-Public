@@ -568,9 +568,14 @@ LDA $7FE4D6
 STA $24
 LDA $7FE4D7
 STA $25
+lda $0D50
+pha
 JSR $96F7A8
+sta $0D50
 JSL $8AB3BA
 jsl drawPortraitLevelUpDeath
+pla
+sta $0D50
 _end
 PLY
 PLX
